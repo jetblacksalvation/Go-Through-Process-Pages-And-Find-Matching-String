@@ -3,13 +3,10 @@
 #include <tchar.h>
 #include <psapi.h>
 #include <vector>
-// To ensure correct resolution of symbols, add Psapi.lib to TARGETLIBS
-// and compile with -DPSAPI_VERSION=1
-
 #include <iostream>
-#include <vector>
+
 #include <string>
-#include <windows.h>
+
 #include <algorithm>
 #include <iterator>
 
